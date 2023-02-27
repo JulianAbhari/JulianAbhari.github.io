@@ -1843,6 +1843,31 @@ button,
   flex-direction: row-reverse;
   min-height: 100vh; }
 
+/* Skills section */
+#skills {
+  text-decoration: none;
+  position: relative;
+  }
+  #skills ul {
+    list-style: none;
+  }
+  #skills li {
+    display: inline-block;
+    background-color: #00ABF0;
+    margin: 15px;
+    border-radius: 50%;
+  }
+  #skills a {
+    color: #000;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+    height: 20px;
+    width: 14px;
+    text-decoration: none;
+  }
+
 /* Main */
 #main {
   -moz-flex-grow: 1;
